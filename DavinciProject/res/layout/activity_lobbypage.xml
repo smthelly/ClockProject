@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background2"
+    tools:context="com.example.davinciproject.Lobbypage" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ImgWM"
+            android:layout_width="120dp"
+            android:layout_height="140dp"/>
+
+        <TextView
+            android:id="@+id/UserNick"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="닉네임 :" />
+
+        <TextView
+            android:id="@+id/UserChip"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+             android:gravity="center"
+            android:text="보유 칩 개수 :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/UserLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                 android:gravity="center"
+                android:text="레벨 :" />
+
+            <ImageView
+                android:id="@+id/levelView1"
+                android:layout_width="25dp"
+                android:layout_height="25dp" 
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="JOKClicked"
+            android:text="High Score" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="JOKClicked"
+            android:text="게임 방법" />
+
+        <Button
+            android:id="@+id/GameStart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="JOKClicked"
+            android:text="Game Start(chip1)" />
+
+        <Button
+            android:id="@+id/GameStart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="JOKClicked"
+            android:text="Game Start(chip5)" />
+
+        <Button
+            android:id="@+id/GameStart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="JOKClicked"
+            android:text="Game Start(chip10)" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DavinciProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_joinpage">Joinpage</string>
+    <string name="title_activity_lobbypage">Lobbypage</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_high_score">HighScore</string>
+    <string name="title_activity_my_info">MyInfo</string>
+    <string name="title_activity_game_intro">GameIntro</string>
+    <string name="title_activity_game_start">GameStart</string>
+    <string name="title_activity_main_view">MainView</string>
+    <string name="title_activity_resultpage">Resultpage</string>
+
+</resources>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="1."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/Chips1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="2."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="3."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="4."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView4"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="5."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView5"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="6."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView6"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="7."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView7"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="8."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView8"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="9."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView9"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="10."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lank10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10등에 도전해보세요!" />
+
+            <ImageView
+                android:id="@+id/lvView10"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Chips10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유 칩 수 : ??? "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

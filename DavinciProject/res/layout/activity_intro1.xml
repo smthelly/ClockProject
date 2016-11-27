@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:columnCount="1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="0" >
+ 		<ImageButton
+            android:id="@+id/how01"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/how2"
+            android:onClick="onClick"
+            android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+
+        <ImageButton
+            android:id="@+id/how02"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/title"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onClick"
+            android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+       
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_gravity="left|bottom"
+        android:layout_row="0"
+        android:text="How Davinci?"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="mOnClick"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_row="0"
+        android:text="How App?"
+        android:layout_marginLeft="165dp"
+        android:layout_marginBottom="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</GridLayout>

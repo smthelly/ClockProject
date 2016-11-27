@@ -1,0 +1,71 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+    <Space
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="3" />
+
+    <LinearLayout
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_next2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="0"
+        android:background="@drawable/right"
+        android:onClick="mOnClick"
+        android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+
+    <ImageButton
+        android:id="@+id/btn_previous2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="0"
+        android:background="@drawable/left"
+        android:onClick="mOnClick"
+        android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="0"
+        android:background="@drawable/back"
+        android:onClick="mOnClick"
+        android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+    
+</GridLayout>
